@@ -1,1 +1,1 @@
-Angular boiler plat
+Angular boiler plate

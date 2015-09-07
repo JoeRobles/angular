@@ -1,0 +1,50 @@
+{
+  "name": "Boiler plate",
+  "version": "0.0.1",
+  "description": "Boiler plate project for angular from scratch",
+  "license": "MIT",
+  "authors": [
+    "Joe Robles <joe.robles.pdj@gmail.com>"
+  ],
+  "private": false,
+  "ignore": [
+    "bin",
+    "lib",
+    "demo",
+    "vendor",
+    "obj",
+    "node_modules",
+    "**/.*",
+    "**/*.csproj",
+    "**/*.user",
+    "**/*.sln",
+    "**/*.html",
+    "**/*.config",
+    ".bowerrc",
+    ".gitignore",
+    ".jshintrc",
+    "gulpfile.js",
+    "index.html",
+    "protractor.conf.js",
+    "karma.conf.js",
+    "package.json",
+    "README.txt"
+  ],
+  "dependencies": {
+    "angular": "~1.4.4",
+    "angular-bootstrap": "~0.12.0",
+    "angular-google-chart": "~0.0.11",
+    "angular-route": "~1.4.0",
+    "toastr": "~2.0.1"
+  },
+  "devDependencies": {
+    "bootstrap": "~3.3.5",
+    "angular-mocks": "~1.4.4",
+    "angular-scenario": "~1.4.4",
+    "jasmine": "~2.3.4",
+    "jasmine-ajax": "~3.2.0"
+  },
+  "resolutions": {
+    "angular": "~1.4.4"
+  }
+}

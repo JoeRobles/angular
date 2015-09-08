@@ -30,6 +30,7 @@
     ngTemplate = require('gulp-ng-template'),
     rename = require('gulp-rename'),
     ngAnnotate = require('gulp-ng-annotate'),
+    angularFilesort = require('gulp-angular-filesort'),
     sourceMaps = require('gulp-sourcemaps'),
     gutil = require('gulp-util'),
     pkg = require('./package.json'),
@@ -87,6 +88,7 @@
     },
     concatScripts: function() {
       return gulp.src(paths.libScripts)
+        .pipe(angularFilesort())
         .pipe(sourceMaps.init())
         .pipe(concat(pkg.name + '.js'))
         .pipe(ngAnnotate({
